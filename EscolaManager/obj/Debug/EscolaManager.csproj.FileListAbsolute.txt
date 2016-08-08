@@ -1,0 +1,14 @@
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\bin\Debug\EscolaManager.exe.config
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\bin\Debug\EscolaManager.exe
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\bin\Debug\EscolaManager.pdb
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\EscolaManager.csprojResolveAssemblyReference.cache
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\MainWindow.g.cs
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\App.g.cs
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\EscolaManager_MarkupCompile.cache
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\EscolaManager_MarkupCompile.lref
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\MainWindow.baml
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\EscolaManager.g.resources
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\EscolaManager.Properties.Resources.resources
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\EscolaManager.csproj.GenerateResource.Cache
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\EscolaManager.exe
+c:\users\brave\documents\visual studio 2015\Projects\EscolaManager\EscolaManager\obj\Debug\EscolaManager.pdb

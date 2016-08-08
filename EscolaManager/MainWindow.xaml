@@ -1,0 +1,32 @@
+﻿<Window x:Class="EscolaManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EscolaManager"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="label" Content="Lista de Alunos" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listPessoas" HorizontalAlignment="Left" Height="154" Margin="10,45,0,0" VerticalAlignment="Top" Width="488" SelectionChanged="listPessoas_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Width="488" HorizontalAlignment="Left">                        
+                        <TextBlock Text="{Binding Name}" />
+                        <TextBlock Text="{Binding Idade}" />
+                        <TextBlock Text="{Binding Turma}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label x:Name="label1" Content="Nome" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="23" Margin="58,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <Label x:Name="label1_Copy" Content="Idade" HorizontalAlignment="Left" Margin="10,233,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtIdade" HorizontalAlignment="Left" Height="23" Margin="58,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="43" />
+        <Label x:Name="label1_Copy1" Content="Turma" HorizontalAlignment="Left" Margin="10,260,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTurma" HorizontalAlignment="Left" Height="23" Margin="58,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <Button x:Name="btnSalvar" Content="Salvar" HorizontalAlignment="Left" Margin="10,291,0,0" VerticalAlignment="Top" Width="488" Click="btnSalvar_Click"/>
+        <Button x:Name="btnDelete" Content="Excluir Selecionado" HorizontalAlignment="Left" Margin="383,204,0,0" VerticalAlignment="Top" Width="115" Click="btnDelete_Click"/>
+
+    </Grid>
+</Window>
